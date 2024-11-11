@@ -1,5 +1,5 @@
 {
-  "name": "random-number-app",
+  "name": "frontend",
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {

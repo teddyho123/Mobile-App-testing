@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "random-number-app",
-    "slug": "random-number-app",
+    "name": "frontend",
+    "slug": "frontend",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",

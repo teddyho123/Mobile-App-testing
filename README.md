@@ -31,3 +31,20 @@ Setting up the backend:
 - - source venv\Scripts\activate
 - Make sure FastAPI and Uvicorn are installed
 - - pip install fastapi uvicorn
+
+Installing React Navigation:
+- npm install @react-navigation/native @react-navigation/native-stack
+- - Example: import { createNativeStackNavigator } from '@react-navigation/native-stack';
+- npm install react-native-gesture-handler react-native-reanimated react-native-screens @react-native-community/masked-view
+- npx expo install react-native-screens react-native-safe-area-context
+For TypeScript support:
+- npm install --save-dev @types/react-native
+- npm install --save-dev @types/react
+- npm install --save-dev @types/react-native-reanimated
+
+
+
+Library for navbar:
+- npm install @react-navigation/bottom-tabs
+- npm install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+- expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
