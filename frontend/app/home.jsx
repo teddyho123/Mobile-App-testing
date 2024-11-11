@@ -1,14 +1,16 @@
-import { Button, View } from "react-native";
+import React, { useContext } from 'react';
+import { View, Text } from 'react-native';
+import darkmodeStyle from '../theme/style';
+import { ThemeContext } from '../theme/themeContext';
 
-
-export default function Home() {
+const Home = () => {
+  const { isDarkMode } = useContext(ThemeContext);
 
   return (
-    <View>
-      <View style={{ flex: 1, justifyContent: "flex-start", alignItems: "center", paddingTop: "150px", paddingBottom:"300px"}}> 
-        <h1>Liar liar, pants on fire</h1>
-      </View>
-      <View style={{ flex: 1, justifyContent: "center", alignItems: "center", }}> <Button title="Click me" onPress={() => {alert("uwu")}} /> </View>
+    <View style={[darkmodeStyle.container, isDarkMode ? darkmodeStyle.darkContainer : darkmodeStyle.lightContainer]}>
+      <Text style={[darkmodeStyle.title, isDarkMode ? darkmodeStyle.darkTitle : darkmodeStyle.lightTitle]}>May Lady Luck be on your side...</Text>
     </View>
   );
-}
+};
+
+export default Home;

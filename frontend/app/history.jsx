@@ -1,15 +1,16 @@
-import { Text, View } from "react-native";
+import React, { useContext } from 'react';
+import { View, Text } from 'react-native';
+import darkmodeStyle from '../theme/style';
+import { ThemeContext } from '../theme/themeContext';
 
-export default function History() {
+const History = () => {
+  const { isDarkMode } = useContext(ThemeContext);
+
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>History page</Text>
+    <View style={[darkmodeStyle.container, isDarkMode ? darkmodeStyle.darkContainer : darkmodeStyle.lightContainer]}>
+      <Text style={[darkmodeStyle.title, isDarkMode ? darkmodeStyle.darkTitle : darkmodeStyle.lightTitle]}>History</Text>
     </View>
   );
-}
+};
+
+export default History;
