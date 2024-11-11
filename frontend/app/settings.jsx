@@ -35,7 +35,7 @@ const Settings = () => {
     <View style={[styles.container, isDarkMode ? styles.darkContainer : styles.lightContainer]}>
       <Text style={styles.title}>Settings</Text>
       <View style={styles.switchContainer}>
-        <Text style={styles.label}>{isDarkMode ? 'Dark Mode' : 'Light Mode'}</Text>
+        <Text style={styles.label}>{isDarkMode ? 'Light Mode' : 'Dark Mode'}</Text>
         <Switch
           value={isDarkMode}
           onValueChange={toggleTheme}
@@ -56,6 +56,7 @@ const styles = StyleSheet.create({
   },
   darkContainer: {
     backgroundColor: '#333',
+    color: '#fff',
   },
   title: {
     fontSize: 40,
