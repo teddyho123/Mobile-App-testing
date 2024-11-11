@@ -1,2 +1,5 @@
 # Mobile App testing
- Experimentation with mobile app development
+A Simple Random Number Generator
+- Simple UI that shows the number generator
+- History system that tracks the previous numbers
+- Maybe add dice rolls later
