@@ -48,3 +48,8 @@ Library for navbar:
 - npm install @react-navigation/bottom-tabs
 - npm install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
 - expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+Library for animations:
+- npx expo install react-native-reanimated
+or
+- npm install react-native-reanimated
