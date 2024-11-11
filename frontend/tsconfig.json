@@ -12,6 +12,16 @@
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.js"
-, ".expo/types/router.d.js", "app/app.ssx", "app/history.jsx", "app/home.jsx", "app/settings.jsx", "components/navbar.jsx", "hooks/useThemeColor.jsx", "hooks/useColorScheme.web.jsx", "hooks/useColorScheme.jsx"  ]
+    "expo-env.d.js",
+    ".expo/types/router.d.js",
+    "app/app.ssx",
+    "app/history.jsx",
+    "app/home.jsx",
+    "app/settings.jsx",
+    "theme/navbar.jsx",
+    "hooks/useThemeColor.jsx",
+    "hooks/useColorScheme.web.jsx",
+    "hooks/useColorScheme.jsx",
+    "expo-env.d.ts"
+  ]
 }
